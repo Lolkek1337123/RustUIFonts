@@ -4,37 +4,93 @@
 [![Files](https://img.shields.io/badge/Fonts-13%20TTF-blue.svg)](#)
 [![Previews](https://img.shields.io/badge/Previews-10%20PNG-green.svg)](#)
 
-В данном репозитории собраны оригинальные файлы шрифтов (`.ttf`) и превью их рендеринга (`.png`), извлеченные из ресурсов (AssetBundles) игры **Rust**. 
+В данном репозитории собраны оригинальные файлы шрифтов (`.ttf`) и изображения их отображения (`.png`), извлеченные из ресурсов (AssetBundles) игры **Rust**.
 
-Этот ресурс предназначен для разработчиков плагинов (Oxide, Carbon), дизайнеров интерфейсов и администраторов серверов Rust для точного позиционирования, стилизации и использования встроенных игровых шрифтов в кастомных меню (Custom UI / CUI).
+Этот ресурс предназначен для разработчиков плагинов (Oxide, Carbon), дизайнеров интерфейсов и администраторов серверов Rust для точной стилизации и использования встроенных игровых шрифтов в кастомных меню (Custom UI / CUI).
 
 ---
 
-## 📋 Список шрифтов и оригинальные пути (Asset Paths)
+## 📋 Галерея Шрифтов и Оригинальные Пути (Asset Paths)
 
-Для использования шрифта в CUI (через JSON или C# CuiHelper) необходимо указывать его **точный внутренний путь к ассету**. Ниже приведена таблица соответствия файлов в этом репозитории и путей в игре:
+Для использования шрифта в CUI (через JSON или C# CuiHelper) необходимо указывать его **точный внутренний путь к ассету**. Ниже представлены шрифты, их пути и визуальное отображение:
 
-| Имя файла в репозитории | Оригинальный путь в игре (Asset Path) | Описание стиля |
-| :--- | :--- | :--- |
-| **PressStart2P-Regular.ttf** | `assets/content/ui/fonts/pressstart2p-regular.ttf` | Ретро-пиксельный 8-битный стиль. |
-| **Super Chiby.ttf** | `assets/content/ui/fonts/superchiby/super chiby.ttf` | Игровой мультяшный, округлый шрифт. |
-| **PermanentMarker.ttf** | `assets/content/ui/fonts/permanentmarker.ttf` | Шрифт, имитирующий надпись перманентным маркером. |
-| **LCD.ttf** | `assets/content/ui/fonts/lcd/lcd.ttf` | Цифровые LCD-индикаторы. |
-| **Roboto-Regular.ttf** | `assets/content/ui/fonts/_roboto/roboto-regular.ttf` | Стандартный шрифт Roboto Regular. |
-| **RobotoCondensed-Regular.ttf** | `assets/content/ui/fonts/robotocondensed-regular.ttf` | Узкий шрифт Roboto Condensed. |
-| **RobotoCondensed-Bold.ttf** | `assets/content/ui/fonts/robotocondensed-bold.ttf` | Жирный узкий шрифт Roboto. |
-| **RobotoMono-Regular.ttf** | `assets/content/ui/fonts/robotomono-regular.ttf` | Моноширинный шрифт Roboto. |
-| **RobotoMono-Bold.ttf** | `assets/content/ui/fonts/robotomono-bold.ttf` | Жирный моноширинный шрифт Roboto. |
-| **NotoEmoji-Regular.ttf** | `assets/content/ui/fonts/_nonenglish/notoemoji-regular.ttf` | Поддержка эмодзи. |
-| **NotoSansArabic-Regular.ttf** | `assets/content/ui/fonts/_nonenglish/arabic/notosansarabic-regular.ttf` | Арабская письменность (Regular). |
-| **NotoSansArabic-Bold.ttf** | `assets/content/ui/fonts/_nonenglish/arabic/notosansarabic-bold.ttf` | Арабская письменность (Bold). |
-| **NotoSansHebrew-Bold.ttf** | `assets/content/ui/fonts/_nonenglish/hebrew/notosanshebrew-bold.ttf` | Иврит (Bold). |
+### 1. 🎮 Press Start 2P
+* **Путь к ассету**: `assets/content/ui/fonts/pressstart2p-regular.ttf`
+* **Файл**: [PressStart2P-Regular.ttf](PressStart2P-Regular.ttf)
+* **Превью**:
+  ![Press Start 2P](PressStart_2P.png)
+
+---
+
+### 2. 🧸 Super Chiby
+* **Путь к ассету**: `assets/content/ui/fonts/superchiby/super chiby.ttf`
+* **Файл**: [Super_Chiby.ttf](Super_Chiby.ttf)
+* **Превью**:
+  ![Super Chiby](Super_Chiby.png)
+
+---
+
+### 3. ✍️ Permanent Marker
+* **Путь к ассету**: `assets/content/ui/fonts/permanentmarker.ttf`
+* **Файл**: [PermanentMarker.ttf](PermanentMarker.ttf)
+* **Превью**:
+  ![Permanent Marker](PermanentMarker.png)
+
+---
+
+### 4. 📟 LCD (Digital)
+* **Путь к ассету**: `assets/content/ui/fonts/lcd/lcd.ttf`
+* **Файл**: [LCD.ttf](LCD.ttf)
+* **Превью**:
+  ![LCD](LCD.png)
+
+---
+
+### 5. 📰 Roboto Condensed Regular
+* **Путь к ассету**: `assets/content/ui/fonts/robotocondensed-regular.ttf`
+* **Файл**: [RobotoCondensed-Regular.ttf](RobotoCondensed-Regular.ttf)
+* **Превью**:
+  ![Roboto Condensed Regular](RobotoCondensed_Regular.png)
+
+---
+
+### 6. 📛 Roboto Condensed Bold
+* **Путь к ассету**: `assets/content/ui/fonts/robotocondensed-bold.ttf`
+* **Файл**: [RobotoCondensed-Bold.ttf](RobotoCondensed-Bold.ttf)
+* **Превью**:
+  ![Roboto Condensed Bold](RobotoCondensed_Bold.png)
+
+---
+
+### 7. ⌨️ Droid Sans Mono (Roboto Mono / Poxel)
+* **Путь к ассету (Mono)**: `assets/content/ui/fonts/robotomono-regular.ttf` (или `robotomono-bold.ttf`)
+* **Файлы**: [RobotoMono-Regular.ttf](RobotoMono-Regular.ttf) / [RobotoMono-Bold.ttf](RobotoMono-Bold.ttf)
+* **Превью**:
+  ![Droid Sans Mono](DroidSans_Mono.png)
+  ![Poxel](Poxel.png)
+
+---
+
+### 8. 😊 Noto Emoji & CJK (East Asian Support)
+* **Путь к ассету (Emoji)**: `assets/content/ui/fonts/_nonenglish/notoemoji-regular.ttf`
+* **Файлы**: [NotoEmoji-Regular.ttf](NotoEmoji-Regular.ttf)
+* **Превью**:
+  ![Noto Emoji](Noto_Emoji.png)
+  ![Noto Sans CJK](Noto_Sans_CJK.png)
+
+---
+
+### 9. Другие локализованные шрифты (Без отдельного превью)
+* **Roboto Regular** (Основной шрифт интерфейсов): `assets/content/ui/fonts/_roboto/roboto-regular.ttf` | [Roboto-Regular.ttf](Roboto-Regular.ttf)
+* **Noto Sans Arabic Regular**: `assets/content/ui/fonts/_nonenglish/arabic/notosansarabic-regular.ttf` | [NotoSansArabic-Regular.ttf](NotoSansArabic-Regular.ttf)
+* **Noto Sans Arabic Bold**: `assets/content/ui/fonts/_nonenglish/arabic/notosansarabic-bold.ttf` | [NotoSansArabic-Bold.ttf](NotoSansArabic-Bold.ttf)
+* **Noto Sans Hebrew Bold**: `assets/content/ui/fonts/_nonenglish/hebrew/notosanshebrew-bold.ttf` | [NotoSansHebrew-Bold.ttf](NotoSansHebrew-Bold.ttf)
 
 ---
 
 ## 💻 Примеры использования в CUI
 
-### 1. Пример в JSON-конфиге Oxide CUI
+### Пример в JSON-конфиге Oxide CUI
 При создании элемента интерфейса типа `CuiLabel`, укажите оригинальный путь в поле `"font"`:
 
 ```json
@@ -57,25 +113,6 @@
     }
   ]
 }
-```
-
-### 2. Пример в C# коде плагина (Oxide CUI)
-Использование через `CuiPlaceholderHelper` или `CuiLabel`:
-
-```csharp
-var label = new CuiLabel
-{
-    Text = {
-        Text = "12:34",
-        FontSize = 18,
-        Align = TextAnchor.MiddleCenter,
-        Font = "assets/content/ui/fonts/lcd/lcd.ttf"
-    },
-    RectTransform = {
-        AnchorMin = "0.1 0.1",
-        AnchorMax = "0.9 0.9"
-    }
-};
 ```
 
 ---
