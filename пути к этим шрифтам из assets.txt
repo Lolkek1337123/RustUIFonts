@@ -1,0 +1,13 @@
+assets/content/ui/fonts/pressstart2p-regular.ttf
+assets/content/ui/fonts/superchiby/super chiby.ttf
+assets/content/ui/fonts/robotocondensed-regular.ttf
+assets/content/ui/fonts/_nonenglish/arabic/notosansarabic-bold.ttf
+assets/content/ui/fonts/_nonenglish/notoemoji-regular.ttf
+assets/content/ui/fonts/permanentmarker.ttf
+assets/content/ui/fonts/robotomono-bold.ttf
+assets/content/ui/fonts/_nonenglish/arabic/notosansarabic-regular.ttf
+assets/content/ui/fonts/robotocondensed-regular.ttf
+assets/content/ui/fonts/robotomono-regular.ttf
+assets/content/ui/fonts/_nonenglish/hebrew/notosanshebrew-bold.ttf
+assets/content/ui/fonts/_roboto/roboto-regular.ttf
+assets/content/ui/fonts/lcd/lcd.ttf
